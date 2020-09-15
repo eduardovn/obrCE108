@@ -1,0 +1,11 @@
+inicio
+	se (cor(4) == "PRETO") entao {
+		parar()
+		esquerda (200)
+	}
+    	
+	se (cor(2) == "BRANCO"  e cor(3) == "PRETO" e  cor(4) == "BRANCO") entao{
+		parar()
+		frente(100)
+    	}
+fim
